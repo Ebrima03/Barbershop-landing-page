@@ -744,7 +744,7 @@ section .footer-content .icon-wrapper i {
   /* hero */
 
 section .hero-content h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
   /* contact us */
@@ -770,33 +770,33 @@ section .about-content {
 }
 
 section .about-content h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 section .about-content p:nth-child(4) {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 section .about-content p:nth-child(5) {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 /* service */
 
 section .service-grid {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr ;
 }
 
 .service-grid > div {
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
 section .service-grid >div P:nth-child(4) {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 section .service-grid >div P:nth-child(3) {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 /* Pricing */
@@ -807,15 +807,15 @@ section .service-grid >div P:nth-child(3) {
 }
 
 section .pricing-content >div h1 {
-  font-size:1.5rem ;
+  font-size:2rem ;
 }
 
 section .pricing-content >div p:nth-child(2) {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 section .pricing-content >div p:nth-child(3) {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 
@@ -852,7 +852,7 @@ section .testimonials-content h1 {
   font-size: 1.2rem;
 }
 .testimonials >div p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 section .testimonials-content {
@@ -861,7 +861,71 @@ section .testimonials-content {
 
 }
 
+/* media query 607px */
+
 @media (max-width: 670px) {
+
+  /* hero */
+
+section .hero-content h1 {
+  font-size: 2rem;
+}
+
+/* About us */
+
+section .about-content h1 {
+  font-size: 2rem;
+}
+
+section .about-content p:nth-child(4) {
+  font-size: 0.7rem;
+}
+
+section .about-content p:nth-child(5) {
+  font-size: 0.6rem;
+}
+
+/* service */
+
+section .service-grid {
+  grid-template-columns: 1fr ;
+}
+
+.service-grid > div {
+  padding: 20px 10px;
+}
+
+section .service-grid >div P:nth-child(4) {
+  font-size: 0.6rem;
+}
+
+section .service-grid >div P:nth-child(3) {
+  font-size: 0.6rem;
+}
+
+/* Pricing */
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+section .pricing-content >div h1 {
+  font-size:1.5rem ;
+}
+
+section .pricing-content >div p:nth-child(2) {
+  font-size: 0.7rem;
+}
+
+section .pricing-content >div p:nth-child(3) {
+  font-size: 0.7rem;
+}
+
+  /* testimonials */
+  .testimonials >div p {
+  font-size: 0.8rem;
+}
 
 }
 
