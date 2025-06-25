@@ -741,12 +741,7 @@ section .footer-content .icon-wrapper i {
 /* media query */
 
 @media (max-width: 960px) {
-  
-}
-
-@media (max-width: 670px) {
-
-/* hero */
+  /* hero */
 
 section .hero-content h1 {
   font-size: 2rem;
@@ -863,6 +858,10 @@ section .testimonials-content h1 {
 section .testimonials-content {
   margin-top: 50px;
 }
+
+}
+
+@media (max-width: 670px) {
 
 }
 
