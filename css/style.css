@@ -787,7 +787,7 @@ section .service-grid {
   grid-template-columns: 1fr 1fr ;
 }
 
-.service-grid > div {
+.service-grid >div {
   padding: 20px 20px;
 }
 
@@ -839,13 +839,6 @@ section .staff-content >div p:nth-child(4) {
   font-size: 0.8rem;
 }
 
-
-/* input */
-section .footer-content form .input-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
 /* testimonials */
 
 section .testimonials-content h1 {
@@ -856,13 +849,23 @@ section .testimonials-content h1 {
 }
 
 section .testimonials-content {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 80%;
 }
 
+/* input */
+
+section .footer-content {
+  margin: 40px 0 0 0;
 }
 
-/* media query 607px */
+section .footer-content form .input-wrapper {
+  display: flex;
+}
+
+}
+
+/* media query 670px */
 
 @media (max-width: 670px) {
 
@@ -892,7 +895,7 @@ section .service-grid {
   grid-template-columns: 1fr ;
 }
 
-.service-grid > div {
+.service-grid >div {
   padding: 20px 10px;
 }
 
@@ -926,7 +929,23 @@ section .pricing-content >div p:nth-child(3) {
   /* testimonials */
 
   .testimonials >div p {
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+
+section .testimonials-content {
+  margin-top: 80px;
+  width: 80%;
+}
+
+/* input */
+section .footer-content form .input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+section .footer-content {
+  width: 90%;
+  margin-left: 20px;
 }
 
 }
